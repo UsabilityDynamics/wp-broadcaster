@@ -1,0 +1,97 @@
+#wpb-credentials-list, #wpb-broadcasts-list {
+  margin-bottom: 20px;
+}
+
+#wpb-credentials-list label {
+  display: block;
+  float: left;
+  width: 8%;
+  line-height: 24px;
+}
+
+#wpb-credentials-list input[type="text"],
+#wpb-credentials-list input[type="url"],
+#wpb-credentials-list input[type="password"] {
+  width: 100%;
+}
+
+#wpb-broadcast-ui td {
+  padding-bottom: 5px;
+}
+
+#wpb-add-new-credential > div,
+#wpb-add-new-broadcast > div,
+#wpb-add-new-filter > div {
+  margin-top: 20px;
+}
+
+.select2-container-multi .select2-choices .select2-search-field input {
+  height: auto !important;
+}
+
+#wpb-progress-label {
+  float: left;
+  margin-left: 10px;
+  margin-top: 4px;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.wpb-progress {
+  display: none;
+}
+
+#wpb-progress-log {
+  background: none repeat scroll 0 0 black;
+  color: white;
+  margin-bottom: 4px;
+  max-height: 300px;
+  overflow-y: scroll;
+  padding: 5px;
+  font-family: monospace;
+}
+
+#wpb-progress-log .wpb-error {
+  color: red;
+}
+#wpb-progress-log .wpb-success {
+  color: greenyellow;
+}
+
+.wpb_sortable_control {
+  cursor: move;
+  padding-top: 17px !important;
+}
+
+input.wpb-endpoint, input.wpb_broadcast_name {
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  background: transparent;
+  width:100%;
+}
+
+#wpb-credentials-list .row-actions {
+  padding-left: 5px;
+}
+
+.filter_options {
+  background: none repeat scroll 0 0 #FF8989;
+  color: white;
+  font-size: 1.4em;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.filter_options.empty {
+  background: none repeat scroll 0 0 #FF8989;
+}
+.filter_options.loaded {
+  background: none repeat scroll 0 0 #78C46F;
+}
+.filter_options table {
+  width: 100%;
+}
+.filter_options table th {
+  width: 150px;
+  text-align: left;
+}

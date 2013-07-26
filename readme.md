@@ -1,0 +1,1 @@
+WP-Broadcaster lets you manage post objects on remote WordPress powered site.
